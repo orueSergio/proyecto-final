@@ -1,0 +1,8 @@
+aside{
+background: $colorPrincipal;   
+}
+button{
+border-radius: 30px;
+background-color: map-get($colores ,"negro");
+@include listaHeader;
+}

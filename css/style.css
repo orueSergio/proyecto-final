@@ -1,0 +1,90 @@
+#navbarNav ul li a {
+  color: #8DC146; }
+  #navbarNav ul li a:hover {
+    color: aliceblue; }
+
+#tec {
+  color: #8DC146; }
+  #tec:hover {
+    color: aliceblue; }
+
+.navbar-toggler {
+  background-color: #8DC146; }
+
+#nav {
+  background-color: black;
+  height: auto; }
+
+.dropdown-menu {
+  background-color: black; }
+  .dropdown-menu li a:hover {
+    background-color: black; }
+
+#imgApp {
+  height: 150px;
+  width: 150px; }
+
+#imgMot {
+  height: 210px;
+  width: 210px; }
+
+#imgHua {
+  height: 170px;
+  width: 170px; }
+
+#divMoto {
+  height: 170px;
+  width: 150px; }
+
+#divReparacion {
+  height: 170px;
+  width: 150px; }
+
+#divPaquete {
+  height: 170px;
+  width: 150px; }
+
+#imgTarjetas {
+  height: 35px; }
+
+main {
+  background: radial-gradient(circle, #eeaeca 0%, #949de9 100%); }
+
+aside {
+  background: radial-gradient(circle, #eeaeca 0%, #949de9 100%); }
+
+button {
+  border-radius: 30px;
+  background-color: black; }
+  button a {
+    color: #8DC146; }
+    button a:hover {
+      color: aliceblue; }
+
+footer {
+  background-color: black; }
+
+#foot ul li a {
+  color: #8DC146; }
+  #foot ul li a:hover {
+    color: aliceblue; }
+
+.iconoWhuas {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 5%; }
+
+@media screen and (max-width: 500px) {
+  .iconoWhuas {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 10%; } }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: black; }

@@ -1,0 +1,13 @@
+@import './variables';
+@import './mixin';
+@import './header';
+@import './main';
+@import './aside';
+@import './footer';
+
+*{
+@include reset;
+}
+body{
+background-color: black;     
+}

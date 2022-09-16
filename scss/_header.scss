@@ -1,0 +1,30 @@
+#navbarNav{
+  ul{
+    li{
+      @include listaHeader;
+  }
+}   
+}
+#tec{
+   color:$colorHeader;
+     &:hover{
+      color: map-get($colores ,"Alice azul");
+  }  
+} 
+.navbar-toggler{
+background-color:$colorHeader;
+}
+#nav{
+background-color: map-get($colores ,"negro");
+height: auto;
+} 
+.dropdown-menu{
+  background-color: map-get($colores ,"negro");
+              li{
+                 a{
+                  &:hover{
+                    background-color: black;
+                 } 
+                }
+              }           
+}
